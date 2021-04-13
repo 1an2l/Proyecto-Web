@@ -9,7 +9,7 @@ que te realisen en preguntados y asi ganarias puntos y recompensas del juego
 Desarrollado en:
 Windows 10
 
-Programado por :
+Auto:
 Sánchez Estrada Angel Isaac
 */
 
@@ -23,8 +23,8 @@ int main ()
     system("cls");
 
     //Mensaje de Bienvenida
-    printf("\033[4;33m");
-    printf("\n\n\t\t\t%c Bienvenidos a respondidos.c %c\n\n",dg ,dg);
+    printf("\033[0;33m");
+    printf("\n\n\t\t\t%c Bienvenidos a Respondidos.c %c\n\n",dg ,dg);
 	printf("\033[0m");
 
     do
@@ -114,7 +114,7 @@ int main ()
                         printf("------ \n");
 
                         printf("Categoria:HISTORY\n\n");
-                        printf("Pregunta: %cComo se llama este politico estadounidende?\n\n",sp);
+                        printf("Pregunta:%cComo se llama este politico estadounidende?\n\n",sp);
 
                         printf("Respuesta: 2) Barack Obama\n\n");
                         printf("\033[0m");
@@ -182,7 +182,7 @@ int main ()
         case 2:
                 //Imprime en pantalla opcion salir
                 printf("\033[01;32m");
-                printf("\n\tElegiste la opci%cn salir\n\nGracias por usar respondidos.c regrese pronto =)\n\n",ao);
+                printf("\n\tElegiste la opci%cn salir\n\n",ao);
                 printf("\033[0m");
                 break;
 
